@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex"><!-- preview only; remove saat pindah ke lab.jasutim.org -->
 <title>Apartemen BSF — Dari Sampah Organik ke Protein · JASUTIM Lab</title>
-<meta name="description" content="Rencana project Apartemen Maggot BSF JASUTIM: model olah sampah organik rumah tangga jadi protein ternak + pupuk. Konsep, alur sirkular, spesifikasi teknis, ekonomi kasar, fase, KPI & risiko.">
+<meta name="description" content="Rencana project Apartemen Maggot BSF JASUTIM: sampah organik → maggot → 100 ayam petelur. Lahan, proyeksi pendapatan telur & balik modal.">
 <meta property="og:title" content="Apartemen BSF — Dari Sampah Organik ke Protein">
-<meta property="og:description" content="Rencana project sirkular JASUTIM: sampah organik → maggot BSF → protein ternak + pupuk. Status: Konsep / Riset.">
+<meta property="og:description" content="Rencana project sirkular JASUTIM: sampah organik → maggot BSF → 100 ayam petelur. Proyeksi ekonomi & balik modal. Status: Konsep / Riset.">
 <meta property="og:type" content="article">
 <link rel="icon" href="icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,45 +34,40 @@
   <div class="art-head">
     <span class="badge konsep"><span class="dot"></span>Konsep · Riset (pra-pilot)</span>
     <h1>Apartemen BSF: Dari Sampah Organik ke Protein</h1>
-    <p class="tagline">Satu rangka, dua produk — sampah dapur jadi protein ternak dan pupuk balik ke tanah.</p>
-    <p class="oneliner">Model olah sampah organik rumah tangga jadi maggot BSF (pakan ternak) + kasgot (pupuk), menutup stream organik yang selama ini di luar fokus bank sampah JASUTIM. <strong>Belum ada keputusan eksekusi — halaman ini bahan kajian.</strong></p>
+    <p class="tagline">Sampah dapur → maggot → 100 ayam petelur → telur, pupuk & gizi komunitas.</p>
 
     <div class="stats">
-      <div class="s"><b>200–250</b><small>kg sampah organik diolah / hari*</small></div>
-      <div class="s"><b>≥ ~50</b><small>kg maggot dipanen / hari*</small></div>
-      <div class="s"><b>±5,4 m²</b><small>footprint lahan per unit</small></div>
-      <div class="s"><b>4 tingkat</b><small>biopond &amp; kandang selang-seling</small></div>
+      <div class="s"><b>100 ekor</b><small>ayam petelur (pullet)</small></div>
+      <div class="s"><b>~80</b><small>butir telur / hari*</small></div>
+      <div class="s"><b>~Rp110rb</b><small>pendapatan telur / hari*</small></div>
+      <div class="s"><b>±40–50 m²</b><small>lahan operasi</small></div>
+      <div class="s"><b>≥50 kg</b><small>maggot / hari (1 unit)*</small></div>
+      <div class="s"><b>200–250 kg</b><small>sampah organik diolah / hari*</small></div>
     </div>
-    <p class="cap">*Angka kapasitas = klaim desain asli, belum diuji di kondisi JASUTIM. Wajib divalidasi saat pilot.</p>
+    <p class="cap">*Estimasi berbasis literatur &amp; harga pasar 2025–2026, belum diuji di kondisi JASUTIM. Validasi = studi kelayakan (F1).</p>
   </div>
 
   <!-- 1 -->
   <div class="block">
-    <h2><span class="n">01</span> Problem — stream organik yang bolong</h2>
-    <ul>
-      <li>Bank sampah JASUTIM fokus ke <strong>anorganik</strong> (yang bisa dijual/didaur ulang). Itu logis secara ekonomi, tapi menyisakan gap.</li>
-      <li><strong>Sampah organik ≈ 50–60% komposisi sampah rumah tangga</strong> (sisa makanan, sayur, buah, ampas dapur) — porsi terbesar, tapi <strong>paling jarang dikelola</strong> karena cepat busuk, bau, dan tak punya nilai jual langsung.</li>
-      <li>Akibatnya organik tetap lari ke TPA Sumur Batu, Bekasi — menyumbang volume &amp; emisi metana, sementara warga tak melihat insentif memilahnya.</li>
-      <li><strong>Gap-nya jelas:</strong> belum ada jalur hilir bernilai untuk organik di ekosistem JASUTIM saat ini.</li>
-    </ul>
+    <h2><span class="n">01</span> Problem</h2>
+    <p>Bank sampah JASUTIM fokus <strong>anorganik</strong>. Tapi <strong>sampah organik ≈ 50–60% sampah rumah tangga</strong> — porsi terbesar, paling jarang dikelola (cepat busuk, bau, tak bernilai jual) → lari ke TPA Sumur Batu.</p>
+    <div class="callout"><strong>Gap:</strong> belum ada jalur hilir bernilai untuk sampah organik di ekosistem JASUTIM. Apartemen BSF mengisi gap itu — komplemen, bukan saingan bank sampah.</div>
   </div>
 
   <!-- 2 -->
   <div class="block">
-    <h2><span class="n">02</span> Solusi — loop sirkular sampah → protein → tanah</h2>
-    <p>Model “Apartemen Ayam + Biopond Maggot 4 tingkat” (desain <strong>Pak Linus, dosen ITB</strong>). Larva <em>Black Soldier Fly</em> (BSF) memakan sampah organik dan mengubahnya jadi protein ternak. Posisi terhadap bank sampah = <strong>komplemen, bukan saingan</strong>: anorganik → bank sampah, organik → biopond maggot.</p>
-
+    <h2><span class="n">02</span> Alur sirkular</h2>
     <div class="diagram">
       <pre class="mermaid">
 flowchart LR
-    A["Sampah organik RT<br/>sisa makanan, sayur, ampas"] --> B["Biopond Maggot BSF<br/>larva memakan sampah"]
-    B --> C["Panen Maggot<br/>protein ternak"]
-    B --> D["Kasgot / residu<br/>pupuk organik"]
-    C --> E["Pakan Ayam<br/>tingkat kandang"]
-    E --> F["Telur + Daging<br/>gizi komunitas"]
-    C --> G["Offtake eksternal<br/>jual maggot ke peternak"]
-    D --> H["Tanah &amp; kebun warga<br/>kompos / pupuk"]
-    F --> I(["Manfaat gizi &amp; ekonomi komunitas"])
+    A["Sampah organik RT<br/>200–250 kg/hari"] --> B["Biopond Maggot BSF"]
+    B --> C["Panen maggot<br/>~50 kg/hari"]
+    B --> D["Kasgot / pupuk"]
+    C --> E["Pakan ayam<br/>~1,5 kg/hari · 10–15% diet"]
+    C --> G["Surplus ~48 kg/hari<br/>dijual / ternak lain"]
+    E --> F["100 ayam petelur<br/>~80 butir/hari"]
+    D --> H["Tanah &amp; kebun warga"]
+    F --> I(["Telur: gizi + pendapatan"])
     G --> I
     H --> J(["Tanah subur → pangan lokal"])
     J -. menutup loop .-> A
@@ -83,162 +78,138 @@ flowchart LR
     class A waste; class B,E proc; class C,D,F,G,H out; class I,J imp;
       </pre>
     </div>
-    <p class="cap">Satu unit = mesin “sampah → protein”. Dua keluaran bernilai (maggot untuk pakan, kasgot untuk pupuk) dan dua jalur manfaat (gizi via ayam, atau pendapatan via jual maggot). Loop ditutup oleh kasgot yang menyuburkan tanah → menumbuhkan pangan lokal.</p>
+    <p class="cap">Maggot = substitusi <strong>parsial</strong> pakan (10–15%), bukan 100%. Sisanya surplus bernilai jual. Loop ditutup kasgot yang menyuburkan tanah.</p>
   </div>
 
   <!-- 3 -->
   <div class="block">
-    <h2><span class="n">03</span> Ringkasan teknis</h2>
+    <h2><span class="n">03</span> Spesifikasi unit BSF</h2>
     <table>
       <tbody>
-        <tr><td><b>Footprint</b></td><td>600 cm (P) × 90 cm (L) × 280 cm (T maks) — ±5,4 m² lahan</td></tr>
-        <tr><td><b>Susunan</b></td><td>4 tingkat selang-seling: ① Biopond → ② Kandang Ayam → ③ Biopond → ④ Kandang Ayam</td></tr>
-        <tr><td><b>Tinggi / tier</b></td><td>±60–70 cm</td></tr>
-        <tr><td><b>Rangka</b></td><td>Baja ringan Canal C75</td></tr>
-        <tr><td><b>Atap</b></td><td>Spandek 0,30 mm</td></tr>
+        <tr><td><b>Footprint unit</b></td><td>600 × 90 × 280 cm (±5,4 m²) · 4 tingkat selang-seling (biopond ↔ kandang)</td></tr>
+        <tr><td><b>Rangka / atap</b></td><td>Baja ringan Canal C75 · Spandek 0,30 mm</td></tr>
         <tr><td><b>Tray biopond</b></td><td>Papan 100×40×20 cm, alas GRC 4 mm, dilapis talang karpet</td></tr>
-        <tr><td><b>Dinding / lantai kandang</b></td><td>Wiremesh galvanis</td></tr>
-        <tr><td><b>Pakan &amp; minum ayam</b></td><td>Talang paralon 6" dibelah · nipple A5 + paralon ¾" + tandon + pelampung otomatis</td></tr>
-        <tr><td><b>Kapasitas olah organik</b></td><td>200–250 kg/hari*</td></tr>
-        <tr><td><b>Output maggot</b></td><td>≥ ~50 kg/hari*</td></tr>
+        <tr><td><b>Pakan &amp; minum</b></td><td>Talang paralon 6" dibelah · nipple A5 + ¾" + tandon + pelampung otomatis</td></tr>
+        <tr><td><b>Kapasitas</b></td><td>200–250 kg organik/hari → ≥~50 kg maggot/hari*</td></tr>
       </tbody>
     </table>
-    <div class="callout warn"><strong>⚠ Catatan validasi teknis:</strong> angka kapasitas berasal dari klaim desain asli Pak Linus, belum diuji di kondisi JASUTIM. Output riil bergantung iklim, kualitas feedstock, dan manajemen koloni.</div>
   </div>
 
-  <!-- 4 -->
+  <!-- 4 — OPERASI TERNAK -->
   <div class="block">
-    <h2><span class="n">04</span> Fit strategis JASUTIM</h2>
-    <p><strong>Misi yang disasar:</strong> Misi 4 (Ekonomi Sirkular — inti) · Misi 2 (Nilai Dampak) · Misi 5 (Edukasi &amp; Pemberdayaan).</p>
-    <h3>Triple Bottom Line</h3>
+    <h2><span class="n">04</span> Operasi ternak petelur · baseline 100 ekor</h2>
+
+    <h3>Umur beli</h3>
+    <span class="rec">✓ Rekomendasi: beli <strong>&nbsp;PULLET (ayam dara siap telur, ~16–18 minggu)</strong></span>
     <table>
-      <thead><tr><th>Pilar</th><th>Kontribusi</th></tr></thead>
+      <thead><tr><th>Opsi</th><th>Harga/ekor*</th><th>Mulai bertelur</th><th>Risiko</th></tr></thead>
       <tbody>
-        <tr><td><b>🌱 Lingkungan</b></td><td>Organik dialihkan dari TPA Sumur Batu; reduksi metana; pupuk organik gantikan kimia</td></tr>
-        <tr><td><b>👥 Sosial</b></td><td>Gizi komunitas (telur/daging); edukasi pilah; potensi kerja perawatan unit</td></tr>
-        <tr><td><b>💰 Ekonomi</b></td><td>Maggot &amp; telur bernilai jual; pupuk; reduksi biaya pakan ternak</td></tr>
+        <tr><td>DOC (umur 1 hari)</td><td>~Rp12rb</td><td>~4–5 bulan lagi</td><td>Tinggi (butuh brooding + vaksinasi)</td></tr>
+        <tr><td><b>Pullet ~16–18 mgg</b> ✓</td><td>~Rp50–85rb</td><td><b>~2–4 minggu (hampir langsung)</b></td><td>Rendah (fase kritis lewat)</td></tr>
       </tbody>
     </table>
-    <h3>SDG relevan</h3>
-    <div class="chips">
-      <span class="chip"><b>SDG 12</b> Konsumsi &amp; Produksi Bertanggung Jawab — inti</span>
-      <span class="chip"><b>SDG 11</b> Kota Berkelanjutan</span>
-      <span class="chip"><b>SDG 2</b> Tanpa Kelaparan</span>
-      <span class="chip"><b>SDG 13</b> Iklim (sekunder)</span>
+    <p class="cap">Untuk pilot komunitas (tim relawan, tujuan buktiin model), pullet memangkas risiko teknis + idle-time 4–5 bulan tanpa telur.</p>
+
+    <h3>Dua aset terpisah</h3>
+    <p>100 ekor <strong>tidak muat</strong> di apartemen BSF (tier ayam cuma 10,8 m² ≈ 30–40 ekor). Jadi dua aset berdampingan:</p>
+    <div class="twocol">
+      <div class="asset">
+        <div class="ic">🪰</div>
+        <span class="role">Pabrik maggot + edukasi</span>
+        <h4>Apartemen BSF</h4>
+        <p>Olah sampah organik jadi maggot &amp; kasgot. Footprint ±5,4 m²/unit.</p>
+        <span class="big">≥50 kg<small> maggot / hari</small></span>
+      </div>
+      <div class="asset">
+        <div class="ic">🥚</div>
+        <span class="role">Produksi telur</span>
+        <h4>Kandang baterai 100 ekor</h4>
+        <p>Kandang baterai terpisah, kepadatan ~3–4 ekor/m². Diberi maggot + pakan komersial.</p>
+        <span class="big">~80 butir<small> telur / hari</small></span>
+      </div>
     </div>
-    <div class="callout"><strong>Posisi fase RPJM — sengaja di-rem.</strong> 2026 = fase Standarisasi &amp; Konsolidasi, jadi yang pas tahun ini hanya <strong>studi kelayakan (kertas)</strong>, bukan pembangunan unit. Pilot fisik realistis masuk <strong>2027</strong> kalau studi kelayakan lolos — biar tak nge-drift fase &amp; jaga prinsip “keberlanjutan &gt; percepatan”.</div>
+
+    <h3>Berapa meter tanah?</h3>
+    <div class="segbar">
+      <span class="seg-a" style="flex:24"><b>~24 m²</b>Kandang baterai 100 ekor</span>
+      <span class="seg-b" style="flex:5.4"><b>~5,4 m²</b>Unit BSF</span>
+      <span class="seg-c" style="flex:15"><b>~15 m²</b>Akses · pakan · handling telur</span>
+    </div>
+    <p class="cap"><strong>Total ±40–50 m²</strong> — muat di petak <strong>~5×8 m</strong> (skala halaman RT/komunitas, bukan lahan luas).</p>
+
+    <h3>Maggot: butuh sedikit, produksi banyak</h3>
+    <div class="bars">
+      <div class="bar"><span class="lbl">Butuh 100 ekor</span><div class="track"><div class="fill" style="width:3%"></div></div><span class="val">~1,5 kg/hari</span></div>
+      <div class="bar"><span class="lbl">Produksi 1 unit</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="val">~50 kg/hari</span></div>
+    </div>
+    <div class="callout"><strong>Surplus ~30–40× lipat.</strong> 1 unit biopond bisa kasih makan ribuan ekor → tier biopond bisa <em>di-right-size</em> (hemat CAPEX) atau surplus maggot dijual sebagai komoditas (revenue tambahan). Bottleneck asli = suplai <strong>sampah organik</strong>, bukan maggot.</div>
   </div>
 
-  <!-- 5 -->
+  <!-- 5 — PROYEKSI EKONOMI -->
   <div class="block">
-    <h2><span class="n">05</span> Model pelaksanaan</h2>
-    <p>Unit dasar: kandidat <strong>“1 unit per RW”</strong> (footprint kecil ±5,4 m², cocok lahan sempit komunitas).</p>
-    <table>
-      <thead><tr><th>Stakeholder</th><th>Peran</th></tr></thead>
-      <tbody>
-        <tr><td><b>RW / pengurus lingkungan</b></td><td>Penyedia lahan, koordinator setoran organik warga, operator harian</td></tr>
-        <tr><td><b>Bank sampah induk JASUTIM</b></td><td>Pembina teknis + SOP, agregator, penghubung offtake, standar mutu</td></tr>
-        <tr><td><b>Warga RT</b></td><td>Sumber feedstock (organik terpilah) + penerima manfaat gizi/pupuk</td></tr>
-        <tr><td><b>Offtaker maggot</b></td><td>Peternak unggas/ikan lokal (kalau maggot dijual)</td></tr>
-      </tbody>
-    </table>
-    <div class="callout"><strong>Dua varian dipilih saat feasibility:</strong> (a) <strong>full loop</strong> — pakai ayam, hasil telur, perawatan lebih kompleks; vs (b) <strong>biopond-only</strong> — panen &amp; jual maggot + kasgot, lebih sederhana, offtake eksternal. Varian (b) lebih ringan untuk pilot pertama.</div>
+    <h2><span class="n">05</span> Proyeksi ekonomi · 100 ekor</h2>
+    <div class="callout warn"><strong>⚠ Semua angka = estimasi kasar</strong> (literatur + harga pasar, lahan diasumsikan Rp0/hibah RW). Bukan kuotasi/data lapangan. Validasi = F1.</div>
+
+    <h3>Arus kas bulanan (estimasi)</h3>
+    <div class="stats">
+      <div class="s"><b>~Rp110rb</b><small>pendapatan telur / hari<br>(80 butir × ~Rp1.400)</small></div>
+      <div class="s"><b>~Rp3,3 jt</b><small>pendapatan / bulan (kotor)</small></div>
+      <div class="s"><b>~Rp2,4 jt</b><small>biaya operasi / bulan (OPEX)</small></div>
+      <div class="s"><b>~Rp0,9 jt</b><small>laba bersih telur / bulan</small></div>
+    </div>
+
+    <h3>Modal awal (CAPEX)</h3>
+    <div class="bars">
+      <div class="bar"><span class="lbl">Apartemen BSF</span><div class="track"><div class="fill" style="width:48%"></div></div><span class="val">Rp5,5–9,5 jt</span></div>
+      <div class="bar"><span class="lbl">Ternak 100 ekor</span><div class="track"><div class="fill" style="width:88%"></div></div><span class="val">Rp10,7–15,2 jt</span></div>
+    </div>
+    <p style="margin:6px 0 14px"><strong>Total CAPEX ≈ Rp16–25 jt</strong> &nbsp; <span class="tbd">＋ Sewa lahan: TBD — target Rp0 (lahan RW/fasum hibah-pakai)</span></p>
+    <p class="cap">Pullet (~Rp5–8,5jt) + kandang baterai (~Rp3–4jt) + feeder/minum (~Rp0,7jt) + stok pakan bln-1 (~Rp2jt). Di luar sewa lahan yang belum diketahui biayanya.</p>
+
+    <h3>Balik modal</h3>
+    <div class="pay">
+      <div class="row">
+        <div class="sc">Konservatif<b>telur saja</b></div>
+        <div class="meter"><div class="mfill con" style="width:90%">~24–30 bulan</div></div>
+      </div>
+      <div class="row">
+        <div class="sc">Optimis<b>+ surplus maggot, hemat pakan, jual afkir</b></div>
+        <div class="meter"><div class="mfill opt" style="width:42%">~10–14 bulan</div></div>
+      </div>
+      <div class="scale"><span>0</span><span>10 bln</span><span>20 bln</span><span>30 bln</span></div>
+    </div>
+    <div class="callout"><strong>Baca jujur:</strong> dari <em>telur 100 ekor saja</em>, margin tipis &amp; balik modal ~2 tahun. Nilai sebenarnya project ini = (1) menutup stream organik, (2) demo sirkular untuk edukasi, (3) <strong>surplus maggot sebagai komoditas</strong> — itu yang mempercepat balik modal &amp; tahan due-diligence funder. Jangan dijual sebagai “mesin uang dari telur”.</div>
   </div>
 
-  <!-- 6 -->
+  <!-- 6 — Fase -->
   <div class="block">
-    <h2><span class="n">06</span> Ekonomi kasar — estimasi, bukan angka final</h2>
-    <div class="callout warn"><strong>⚠ Peringatan integritas:</strong> seluruh angka di bawah adalah <strong>ESTIMASI KASAR</strong> dari harga pasar umum bahan + asumsi panen — <strong>bukan kuotasi toko, bukan data lapangan JASUTIM.</strong> Jangan dikutip sebagai fakta. Wajib di-ground ke kuotasi nyata sebelum dipakai pengambilan keputusan.</div>
-
-    <h3>CAPEX 1 unit (estimasi bahan utama)</h3>
-    <table>
-      <thead><tr><th>Komponen</th><th>Kuantitas (BOM)</th><th>Estimasi</th></tr></thead>
-      <tbody>
-        <tr><td>Baja ringan C75 (kolom, rangka, gording, reng)</td><td>~25 batang</td><td>Rp 1,5–2,2 jt</td></tr>
-        <tr><td>Atap Spandek 0,30 mm</td><td>5 lembar</td><td>Rp 0,5–0,8 jt</td></tr>
-        <tr><td>Wiremesh galvanis</td><td>22 m²</td><td>Rp 1,0–1,6 jt</td></tr>
-        <tr><td>Paralon (6" + ¾") + nipple A5 ×24</td><td>—</td><td>Rp 0,4–0,7 jt</td></tr>
-        <tr><td>GRC 4 mm + papan tray + talang karpet</td><td>—</td><td>Rp 0,6–1,0 jt</td></tr>
-        <tr><td>Sekrup + consumables</td><td>4 pak</td><td>Rp 0,2–0,4 jt</td></tr>
-        <tr><td>Bibit BSF + starter koloni</td><td>asumsi</td><td>Rp 0,3–0,8 jt</td></tr>
-        <tr><td>Ongkos rakit (jika bukan gotong royong)</td><td>asumsi</td><td>Rp 1,0–2,0 jt</td></tr>
-        <tr><td><b>TOTAL CAPEX kasar 1 unit</b></td><td></td><td><b>Rp ~5,5–9,5 jt</b></td></tr>
-      </tbody>
-    </table>
-    <p class="cap">Rentang lebar disengaja — harga bahan fluktuatif &amp; belum ada kuotasi. Yang wajib divalidasi: harga baja ringan/wiremesh lokal Bekasi, harga bibit BSF, perlu/tidaknya tenaga bayaran vs gotong royong.</p>
-
-    <h3>Potensi revenue</h3>
-    <div class="callout warn">Angka rupiah revenue <strong>sengaja tidak diberikan presisi.</strong> Klaim “~50 kg maggot/hari” sangat optimistis untuk unit komunitas tanpa operator terlatih; memproyeksikan rupiah dari situ = risiko over-promise. <strong>Validasi panen riil di pilot dulu.</strong> Baseline sehat untuk feasibility: skenario konservatif (mis. 20–30% dari klaim).</div>
-    <p><strong>Pertanyaan ekonomi kunci yang harus dijawab feasibility:</strong></p>
-    <ul>
-      <li>Berapa panen maggot riil/hari di kondisi Bekasi (bukan klaim desain)?</li>
-      <li>Ada offtaker maggot nyata dengan harga &amp; volume committed?</li>
-      <li>Payback period realistis berapa bulan di skenario konservatif?</li>
-      <li>Siapa yang menanggung biaya perawatan harian (waktu/tenaga)?</li>
-    </ul>
-  </div>
-
-  <!-- 7 -->
-  <div class="block">
-    <h2><span class="n">07</span> Fase implementasi</h2>
+    <h2><span class="n">06</span> Fase</h2>
     <div class="phase">
       <div class="pin"><i></i><span></span></div>
-      <div class="pe">
-        <span class="when">2026 · selaras fase Standarisasi</span>
-        <h4>F1 — Studi Kelayakan</h4>
-        <p>Kuotasi bahan riil, survei offtaker, cek regulasi/lahan RW, skenario ekonomi konservatif. <strong>Output: Go/No-Go memo + CAPEX riil.</strong></p>
-      </div>
+      <div class="pe"><span class="when">2026 · fase Standarisasi</span><h4>F1 — Studi Kelayakan</h4><p>Kuotasi bahan riil, kunci offtaker maggot, amankan lahan RW (target hibah-pakai), skenario ekonomi konservatif. <strong>Output: Go/No-Go + CAPEX riil.</strong></p></div>
       <div class="pin"><i></i><span></span></div>
-      <div class="pe">
-        <span class="when">2027 · jika F1 = Go</span>
-        <h4>F2 — Pilot 1 unit</h4>
-        <p>Bangun 1 unit di 1 RW kandidat, jalankan 3–6 bulan, ukur panen &amp; dampak riil. <strong>Output: data panen riil + SOP operasional.</strong></p>
-      </div>
+      <div class="pe"><span class="when">2027 · jika Go</span><h4>F2 — Pilot 1 unit + 100 ekor</h4><p>Bangun 1 RW kandidat, jalan 3–6 bulan, ukur panen maggot &amp; produksi telur riil. <strong>Output: data riil + SOP.</strong></p></div>
       <div class="pin"><i></i></div>
-      <div class="pe">
-        <span class="when">2027–2028</span>
-        <h4>F3 — Replikasi</h4>
-        <p>Sebar ke RW lain mengikuti SOP tervalidasi, integrasi ke jaringan bank sampah. <strong>Output: model “1 unit/RW” siap skala.</strong></p>
-      </div>
+      <div class="pe"><span class="when">2027–2028</span><h4>F3 — Replikasi</h4><p>Sebar ke RW lain ikut SOP tervalidasi, integrasi ke jaringan bank sampah.</p></div>
     </div>
-    <div class="callout"><strong>Penahanan disengaja:</strong> 2026 berhenti di F1 (kertas/kajian). Pilot fisik baru kalau angka feasibility masuk akal.</div>
   </div>
 
-  <!-- 8 -->
+  <!-- 7 — Risiko -->
   <div class="block">
-    <h2><span class="n">08</span> KPI / metrik dampak</h2>
+    <h2><span class="n">07</span> Risiko utama &amp; mitigasi</h2>
     <table>
-      <thead><tr><th>Metrik</th><th>Definisi</th><th>Catatan</th></tr></thead>
+      <thead><tr><th>Risiko</th><th>Mitigasi</th></tr></thead>
       <tbody>
-        <tr><td><b>Kg organik dialihkan dari TPA</b></td><td>total organik diolah / bulan</td><td>metrik lingkungan utama</td></tr>
-        <tr><td><b>Kg maggot dipanen</b></td><td>output / bulan (riil, bukan klaim)</td><td>metrik produksi inti</td></tr>
-        <tr><td><b>Kg kasgot / pupuk</b></td><td>residu jadi pupuk</td><td>metrik sirkularitas</td></tr>
-        <tr><td><b>Jumlah RT memilah organik</b></td><td>rumah tangga aktif setor</td><td>metrik adopsi/perilaku</td></tr>
-        <tr><td><b>Jumlah unit &amp; RW aktif</b></td><td>skala replikasi</td><td>metrik pertumbuhan</td></tr>
-        <tr><td><b>Rp nilai ekonomi</b></td><td>maggot+telur+pupuk terjual</td><td>isi hanya dengan data riil pilot</td></tr>
+        <tr><td><b>Bau &amp; leachate</b></td><td>Drainase proper, manajemen rasio feedstock, jarak dari rumah, SOP harian</td></tr>
+        <tr><td><b>Offtake maggot lemah</b></td><td>Kunci offtaker di F1 sebelum bangun; biopond-only lebih fleksibel</td></tr>
+        <tr><td><b>Biaya sewa lahan</b></td><td>Amankan lahan RW/fasum hibah-pakai (target Rp0) di depan</td></tr>
+        <tr><td><b>Panen / telur di bawah klaim</b></td><td>Skenario konservatif; pilot dulu sebelum janji angka</td></tr>
+        <tr><td><b>Beban perawatan harian</b></td><td>Operator jelas + insentif, SOP ringkas, mulai varian sederhana</td></tr>
+        <tr><td><b>Kontaminasi feedstock</b></td><td>Edukasi pilah ketat + screening setoran organik</td></tr>
       </tbody>
     </table>
-    <p class="cap">Semua metrik kuantitatif diisi dari pengukuran pilot, bukan proyeksi desain. Kartu publik hanya menampilkan angka yang sudah terverifikasi.</p>
+    <p class="cap" style="margin-top:24px">Sumber desain: carousel Instagram <a href="https://www.instagram.com/p/DZy1OEBEeSi/">@santosoim</a> — gambar teknik “Apartemen Ayam Biopond Maggot 4 Tingkat” karya Pak Linus (Institut Teknologi Bandung). Angka peternakan: estimasi dari literatur &amp; harga pasar Indonesia 2025–2026 (hobiternak, dokterunggas, GDM, IPB Fapet, Medion), diolah jadi rencana oleh tim JASUTIM.</p>
   </div>
-
-  <!-- 9 -->
-  <div class="block">
-    <h2><span class="n">09</span> Risiko &amp; mitigasi</h2>
-    <table>
-      <thead><tr><th>Risiko</th><th>Dampak</th><th>Mitigasi</th></tr></thead>
-      <tbody>
-        <tr><td><b>Bau &amp; leachate</b></td><td>Penolakan warga</td><td>Drainase leachate proper, manajemen rasio feedstock, jarak dari rumah, SOP kebersihan harian</td></tr>
-        <tr><td><b>Offtake maggot lemah</b></td><td>Produk numpuk, ekonomi gagal</td><td>Kunci offtaker di F1 sebelum bangun; varian biopond-only lebih fleksibel</td></tr>
-        <tr><td><b>Beban perawatan harian</b></td><td>Unit telantar pasca euforia</td><td>Operator jelas + insentif, SOP ringkas, mulai dari varian sederhana</td></tr>
-        <tr><td><b>Sanitasi / penyakit (jalur ayam)</b></td><td>Risiko kesehatan, biosecurity</td><td>Pertimbangkan biopond-only dulu; jika ayam: biosecurity + jarak + vaksinasi</td></tr>
-        <tr><td><b>Panen di bawah klaim</b></td><td>Ekonomi tak masuk</td><td>Skenario konservatif di F1; pilot sebelum janji angka</td></tr>
-        <tr><td><b>Kontaminasi feedstock</b></td><td>Kualitas maggot turun</td><td>Edukasi pilah ketat + screening setoran organik</td></tr>
-        <tr><td><b>Regulasi / zonasi</b></td><td>Komplain / izin RW-RT</td><td>Sosialisasi + izin RT/RW di depan, frame sebagai TPS3R mini</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <p class="cap" style="margin:34px 0 10px">Sumber desain: carousel Instagram <a href="https://www.instagram.com/p/DZy1OEBEeSi/">@santosoim</a> — gambar teknik “Apartemen Ayam Biopond Maggot 4 Tingkat” karya Pak Linus (Institut Teknologi Bandung). Knowledge teknis diolah jadi rencana project oleh tim JASUTIM.</p>
 
 </main>
 
@@ -258,16 +229,8 @@ flowchart LR
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
   mermaid.initialize({
-    startOnLoad:true,
-    theme:'base',
-    themeVariables:{
-      fontFamily:'Inter, system-ui, sans-serif',
-      fontSize:'14px',
-      lineColor:'#9A8A66',
-      primaryColor:'#D2E8DC',
-      primaryTextColor:'#143A28',
-      primaryBorderColor:'#1F6B46'
-    },
+    startOnLoad:true, theme:'base',
+    themeVariables:{fontFamily:'Inter, system-ui, sans-serif',fontSize:'14px',lineColor:'#9A8A66',primaryColor:'#D2E8DC',primaryTextColor:'#143A28',primaryBorderColor:'#1F6B46'},
     flowchart:{curve:'basis',padding:14}
   });
 </script>
