@@ -219,3 +219,23 @@ td b,th b{color:var(--ink)}
 /* recommendation chip + tbd */
 .rec{display:inline-flex;align-items:center;gap:9px;background:var(--emerald-soft);border:1px solid #BFD8C6;color:var(--emerald-deep);font-weight:600;padding:10px 16px;border-radius:10px;margin:6px 0 4px;font-size:15px}
 .tbd{display:inline-flex;align-items:center;gap:7px;background:var(--amber-bg);border:1px dashed var(--amber-line);color:var(--amber-ink);font-weight:600;padding:8px 13px;border-radius:9px;font-size:13.5px}
+
+/* ============ skala & margin cards ============ */
+.scales{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0}
+@media(max-width:640px){.scales{grid-template-columns:repeat(2,1fr)}}
+.scard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 14px;text-align:center;box-shadow:var(--shadow);position:relative}
+.scard.best{border:2px solid var(--emerald);box-shadow:0 10px 34px rgba(31,107,70,.16)}
+.scard .sz{font-family:var(--serif);font-size:32px;color:var(--ink);line-height:1}
+.scard .sz small{font-size:12px;color:var(--muted);font-family:var(--sans);display:block;margin-top:3px;letter-spacing:.04em;text-transform:uppercase}
+.scard .net{margin:13px 0 0;font-size:12.5px;color:var(--ink-soft);line-height:1.3}
+.scard .net b{display:block;font-size:17px;color:var(--emerald);font-family:var(--serif)}
+.scard .net.sub{margin-top:9px;padding-top:9px;border-top:1px solid var(--line)}
+.scard .net.sub b{color:var(--ink)}
+.scard .net.sub b.loss{color:#B0451E}
+.scard .vb{margin-top:13px;font-size:11.5px;font-weight:600;padding:4px 11px;border-radius:999px;display:inline-block}
+.scard .vb.demo{background:var(--amber-bg);color:var(--amber-ink)}
+.scard .vb.mid{background:var(--paper);color:var(--ink-soft);border:1px solid var(--line)}
+.scard .vb.ok{background:var(--emerald-soft);color:var(--emerald-deep)}
+.scard .ribbon{position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--emerald);color:#fff;font-size:11px;font-weight:600;padding:3px 11px;border-radius:999px;white-space:nowrap;box-shadow:0 2px 8px rgba(31,107,70,.3)}
+.legend{font-size:12.5px;color:var(--muted);margin:0 0 4px;display:flex;gap:18px;flex-wrap:wrap}
+.legend i{font-style:normal;color:var(--ink-soft)}
