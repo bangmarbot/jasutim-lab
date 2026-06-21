@@ -239,3 +239,17 @@ td b,th b{color:var(--ink)}
 .scard .ribbon{position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--emerald);color:#fff;font-size:11px;font-weight:600;padding:3px 11px;border-radius:999px;white-space:nowrap;box-shadow:0 2px 8px rgba(31,107,70,.3)}
 .legend{font-size:12.5px;color:var(--muted);margin:0 0 4px;display:flex;gap:18px;flex-wrap:wrap}
 .legend i{font-style:normal;color:var(--ink-soft)}
+
+/* ============ mobile fixes (v5) ============ */
+.rec{display:block} /* clean wrapping chip, no flex-item squeeze */
+@media(max-width:640px){
+  /* tables scroll inside their box instead of pushing the page sideways */
+  .art table{display:block;width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  /* land segbar: stack to readable full-width rows (proportion sugar dropped on mobile) */
+  .segbar{flex-direction:column;height:auto}
+  .segbar span{flex:1 1 auto!important;flex-direction:row;justify-content:space-between;align-items:center;width:100%;padding:12px 15px;text-align:left;gap:10px}
+  .segbar span b{font-size:15px}
+  /* payback scale labels: drop the desktop left-indent so they don't push width */
+  .pay .scale{margin-left:0}
+  .pay .row{grid-template-columns:120px 1fr}
+}
